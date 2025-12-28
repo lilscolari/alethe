@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env/
+.venv/
+.ai/
+roadmap.md
+dist/
+*.egg-info/
+setup.cfg
+roadmap.md
