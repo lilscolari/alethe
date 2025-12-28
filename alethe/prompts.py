@@ -22,21 +22,3 @@ Code:
 
 Output ONLY markdown, no JSON or code blocks (Do not repeat the prompt).
 """
-
-
-
-def load_diff_prompt(old_md: str, new_md: str) -> str:
-    return f"""
-You are an AI code reviewer.
-
-OLD EXPLANATION:
-{old_md}
-
-NEW EXPLANATION:
-{new_md}
-
-TASK:
-Describe all meaningful semantic changes in the new explanation.
-Use markdown with headings, bullet points, and summaries.
-Output ONLY markdown, no JSON or code blocks.
-"""

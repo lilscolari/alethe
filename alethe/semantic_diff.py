@@ -1,4 +1,3 @@
-# semantic_diff.py
 from llm import LocalHFLLM, StubLLM
 
 DEFAULT_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"

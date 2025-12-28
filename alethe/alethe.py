@@ -1,4 +1,3 @@
-# alethe.py
 import os
 import json
 import hashlib

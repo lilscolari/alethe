@@ -1,4 +1,3 @@
-# llm.py
 from abc import ABC, abstractmethod
 from transformers import pipeline
 import torch
